@@ -3,7 +3,7 @@
 # license that can be found in the LICENSE file.
 
 # Old enough to support Ubuntu Precise.
-cmake_minimum_required(VERSION 2.8.7)
+cmake_minimum_required(VERSION 3.8)
 
 if (WIN32)
   if (NOT EXISTS "compact_enc_det/compact_enc_det.h")
